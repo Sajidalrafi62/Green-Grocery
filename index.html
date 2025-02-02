@@ -29,20 +29,19 @@
       </script>
 </head>
 <body>
-    <header>
-      <section class="bg-gradient-to-b from-white to-[#efebe3]">
+  <header class="animate-fadeIn">
+    <section class="bg-gradient-to-b from-white to-[#efebe3]">
         <nav class="flex justify-between items-center px-10 py-4 mx-auto max-w-screen-xl">
-            <img src="c2-assets/logo-header.png" alt="" >
+            <img src="c2-assets/logo-header.png" alt="">
             <ul class="hidden md:flex space-x-6">
                 <li><a href="#" class="text-gray-700 hover:text-green-600">Product</a></li>
                 <li><a href="#" class="text-gray-700 hover:text-green-600">Services</a></li>
                 <li><a href="#" class="text-gray-700 hover:text-green-600">Contact us</a></li>
-                
             </ul>
             <div class="hidden md:flex space-x-4 ">
                 <div class="align-middle text-2xl">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                  <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </div>
                 <button class="border border-gray-400 px-4 py-2 rounded">Login</button>
                 <button class="bg-green-600 text-white px-4 py-2 rounded">Register</button>
@@ -62,8 +61,8 @@
                 <img src="c2-assets/hero-vegetables.png" alt="Fresh Produce" class="w-full max-w-2xl">
             </div>
         </section>
-      </section>
-    </header>
+    </section>
+</header>
     <main>
       <section class="bg-gray-100 p-6 lg:p-36">
         <h2 class="text-2xl lg:text-3xl font-bold text-green-600 mb-4">Services</h2>
@@ -89,6 +88,24 @@
                 <h3 class="font-bold text-lg mt-4">Healthy Products</h3>
                 <p class="text-gray-600 mt-2">We provide healthy products, focusing on fresh, organic options for your well-being.</p>
             </div>
+        </div>
+      </section>
+
+      <section class="bg-white py-12 px-6 lg:px-36">
+        <h2 class="text-2xl lg:text-3xl font-bold text-green-600 mb-6 text-center">About Nature's Platter</h2>
+        <div class="flex flex-col lg:flex-row items-center gap-8 text-center lg:text-left">
+          <div class="lg:w-1/2">
+            <img src="c2-assets/logo-header.png" alt="About Nature's Platter" class=" h-auto rounded-lg shadow-lg">
+          </div>
+          <div class="lg:w-1/2">
+            <p class="text-gray-600 mb-4">
+              Nature's Platter is your trusted source for high-quality groceries, offering a wide variety of fresh produce, pantry staples, organic foods, and more. We take pride in providing our customers with top-notch products that cater to their health and wellness needs. Whether you're looking for everyday essentials or specialty items, Nature's Platter has you covered.
+            </p>
+            <p class="text-gray-600 mb-4">
+              Our team is committed to sustainable sourcing and delivering products that are both good for you and good for the planet. With a focus on fresh and organic produce, we aim to support healthy lifestyles while also promoting eco-friendly practices. Explore our diverse range of offerings and discover the joy of healthy, delicious living.
+            </p>
+            <button class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition">Learn More</button>
+          </div>
         </div>
       </section>
 
@@ -201,9 +218,9 @@
         </div>
       </section>
 
-      <section class="p-6 lg:p-36">
+      <section class="p-6 lg:p-36 relative top-[200px] lg:top-[300px]">
         <h1 class="text-2xl lg:text-3xl font-bold text-green-600 mb-6">Arrival & Offers</h1>
-        <div class="flex flex-col lg:flex-row text-center gap-5">
+        <div class="flex flex-col lg:flex-row text-center gap-5 mb-20">
           <div class="bg-[#115414] rounded-[24px] flex">
             <div class="flex flex-col gap-3 ">
               <img src="c2-assets/dawat-logo.png" alt="" class="w-28 lg:w-60">
@@ -222,7 +239,7 @@
           </div>
         </div>
 
-        <div class="bg-[#f5f3eb] flex items-center justify-center rounded-[24px] lg:w-3/4">
+         <div class="bg-[#f5f3eb] flex items-center justify-center rounded-[24px] lg:w-3/4">
           <div class=" rounded-lg p-4 flex flex-col lg:flex-row items-center space-x-6 ">
               <div class="w-1/2">
                   <img src="c2-assets/vegetable-busket.png" alt="Grocery Basket" class="rounded-lg w-full">
@@ -240,9 +257,49 @@
                   </form>
               </div>
           </div>
-        </div>
+        </div> 
       </section>
+      <footer class="bg-[rgb(23,152,0)] lg:h-[658px]">
+        <div class="container flex flex-col lg:flex-row p-4 gap-5 lg:px-36 text-white pt-96">
+            <!-- Left Section: Logo & Description -->
+            <div class="lg:w-1/3">
+                <img src="c2-assets/logo-footer.png" alt="Nature's Platter Logo" class="mb-2">
+                <p class="text-sm">
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends.
+                </p>
+            </div>  
+    
+            <!-- Middle Section: Links -->
+            <div class="lg:w-1/3 flex flex-col space-y-2 lg:text-center">
+                <a href="#" class="hover:underline">Product</a>
+                <a href="#" class="hover:underline">Services</a>
+                <a href="#" class="hover:underline">Contact us</a>
+            </div>
+    
+            <!-- Right Section: Social Icons -->
+            <div class="lg:w-1/3 flex flex-col lg:items-end space-y-2">
+                <p class="text-sm">Follow Us</p>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-white hover:text-gray-200">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-200">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-200">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-200">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
       
     </main>
+
+    
 </body>
 </html>
